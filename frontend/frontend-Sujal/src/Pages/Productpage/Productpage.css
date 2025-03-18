@@ -1,0 +1,61 @@
+.product.card {
+  max-width: 250px; /* Adjust the width to make the card smaller */
+  margin: 10px;
+}
+
+.product.card img {
+  width: 100%;
+  height: auto;
+}
+
+.product.card .card-body {
+  padding: 10px;
+}
+
+.product.card .card-title {
+  font-size: 1rem; /* Smaller font size */
+}
+
+.product.card .card-text {
+  font-size: 0.9rem; /* Smaller font size */
+}
+
+.product.card .btn {
+  font-size: 0.8rem; /* Smaller button text */
+  padding: 5px 10px; /* Smaller button padding */
+}
+
+.cart {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 930px; /* Adjust the width to make the cart smaller */
+  margin-top: 20px;
+  background-color: #f8f9fa;
+}
+
+.cart img {
+  width: 40px; /* Smaller image size */
+  height: auto;
+  margin-right: 10px;
+}
+
+.cart .list-group-item {
+  padding: 5px 10px; /* Reduce padding to make items more compact */
+}
+
+.cart .list-group-item h5 {
+  font-size: 1rem; /* Smaller font size */
+  margin: 0;
+}
+
+.cart .list-group-item p {
+  font-size: 0.8rem; /* Smaller font size */
+  margin: 0;
+}
+
+.cart h3 {
+  font-size: 1.2rem; /* Smaller font size for total */
+}
+
+

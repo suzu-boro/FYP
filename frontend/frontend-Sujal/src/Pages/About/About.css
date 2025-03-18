@@ -1,0 +1,157 @@
+.about-me {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-text-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.product-card {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.about-paragraph {
+  flex: 2;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .image-text-container {
+    flex-direction: column;
+  }
+
+  .image-text-container.reverse {
+    flex-direction: column;
+  }
+
+  .about-paragraph {
+    text-align: justify;
+  }
+
+  .video-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* About.css */
+.about-me {
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-text-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.product-card {
+  margin-right: 20px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* About.css */
+.about-me {
+  padding: 20px;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-text-container.reverse {
+  flex-direction: row-reverse;
+}
+
+.product-card {
+  margin-right: 20px;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-section {
+  margin-top: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between videos */
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 560px; /* Adjust as needed */
+  height: 315px;
+}
+
+
+}

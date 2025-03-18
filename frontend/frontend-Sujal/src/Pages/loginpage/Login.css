@@ -1,0 +1,21 @@
+/* Login.css */
+body {
+  background-color: #f7fafc;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.btn i {
+  margin-right: 8px;
+}
